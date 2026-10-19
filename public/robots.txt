@@ -1,0 +1,13 @@
+# VibeStall robots.txt
+User-agent: *
+Allow: /
+
+# Disallow admin and auth routes from crawling
+Disallow: /dashboard/admin/
+Disallow: /auth/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /*?
+
+# Sitemap
+Sitemap: https://vibestall.tech/sitemap.xml
