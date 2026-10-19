@@ -1,3 +1,5 @@
+import './globals.css';
+
 export const metadata = {
   title: 'VibeStall',
   description: 'Marketplace for vibecoded apps.',
